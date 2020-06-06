@@ -10,7 +10,12 @@
 <body>
     
     <header>
-        <h1><a href="/">Blog - Home</a></h1>
+        <div class="nav-left">
+            <h1><a href="/">Blog - Home</a></h1>
+        </div>
+        <div class="nav-right">
+            <h3><a href="{% url 'post_new' %}">+ Nova Postam no Blog</a></h3>
+        </div>
     </header>
 
     <div class="container">
